@@ -64,3 +64,21 @@
 .containerWidth {
   @apply max-w-container mx-auto;
 }
+
+.text-big {
+  @apply text-4xl font-bold text-slate-900 text-balance;
+}
+
+.text-semiBig {
+  @apply text-xl font-semibold text-slate-800 text-balance;
+}
+
+.text-paragraph {
+  @apply text-base text-slate-600;
+}
+
+
+
+.hero {
+  @apply relative w-full py-12 flex flex-col md:flex-row containerWidth items-center gap-8 justify-between before:-z-10 before:max-w-container before:mx-auto before:absolute before:top-0 before:left-0 before:w-[80%] before:h-full before:bg-gradient-to-tr before:rounded-b-lg before:to-sky-400/10 before:from-sky-600/20;
+}
